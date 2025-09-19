@@ -15,7 +15,10 @@ public class Main {
             Student newStudent = new Student(splitLine[0], Integer.parseInt(splitLine[1]), Integer.parseInt(splitLine[2]));
             students.add(newStudent);
         }
-
+        System.out.printf("%-10s", "Name");
+        System.out.printf("%-10s", "First");
+        System.out.printf("%-10s", "Second");
+        System.out.println("DividingResult");
         for (Student student : students) {
             System.out.println(student);
         }
