@@ -13,8 +13,8 @@ public class Student {
     public String toString() {
         return (
                 String.format("%-10s", this.name)
-                + String.format("%-5s", this.first)
-                + String.format("%-5s", this.second)
+                + String.format("%-10d", this.first)
+                + String.format("%-10d", this.second)
                 + String.format("%.3f", this.dividingResult)
         );
     }
